@@ -1,0 +1,106 @@
+*, :before, :after {
+	 box-sizing: border-box;
+}
+ .unstyled {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0;
+}
+ .unstyled a {
+	 text-decoration: none;
+}
+ .list-inline {
+	 overflow: hidden;
+}
+ .list-inline li {
+	 float: left;
+}
+ .header {
+	 position: fixed;
+	 left: 0;
+	 top: 0;
+	 bottom: 0;
+	 width: 7em;
+	 background: #f1f1f1;
+}
+ .logo {
+     padding: 0;
+	 margin: 0;
+}
+ .logo a {
+	 display: block;
+     padding: 1em 0;
+     margin-left: 30px;
+	 color: black;
+	 
+	 
+}
+ 
+.main-nav a {
+	 padding: 1.1em 0;
+	 color: #dfdbd9;
+	 font: 400 1.125em 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	 text-align: center;
+	
+}
+ 
+ .list-hover-slide li {
+	 position: relative;
+	 
+}
+ .list-hover-slide a {
+	 display: block;
+     position: relative;
+     color: black;
+}
+
+.section {
+    background-color:  #dfdbd9;
+    margin-top: 100px;
+   padding-bottom: 250px;
+    
+    
+}
+
+section > h5 {
+    padding-top: 50px;
+    margin-left: 150px;
+    color:rgb(143, 138, 138) ;
+}
+
+.form-group-row {
+    margin-left: 200px;
+    padding: 50px ;
+    
+    
+}
+
+input[type=url]{
+    border-radius:10px;
+  }
+  
+::-webkit-input-placeholder {
+    font-weight: 700;
+ }
+
+#or {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#upload {
+    width: 150px;
+    height: 150px;
+    background-color: floralwhite;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+
+
+ 
+ 
